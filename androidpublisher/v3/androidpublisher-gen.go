@@ -6082,6 +6082,8 @@ type RegionalSubscriptionOfferPhaseConfig struct {
 	// in this region.
 	RelativeDiscount float64 `json:"relativeDiscount,omitempty"`
 
+	Free *struct{} `json:"free,omitempty"`
+
 	// ForceSendFields is a list of field names (e.g. "AbsoluteDiscount") to
 	// unconditionally include in API requests. By default, fields with
 	// empty or default values are omitted from API requests. However, any
